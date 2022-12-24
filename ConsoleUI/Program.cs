@@ -21,7 +21,7 @@ namespace ConsoleUI
             user.Password= "12345";
             userManager.Delete(user);
            
-            Console.ReadLine();
+            Console.ReadLine();//Burda kaldım.
         }
     }
 }
