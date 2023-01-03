@@ -18,12 +18,10 @@ namespace Business.Concrete
             _userDal = userDal;
         }
 
-
         public void Add(User user)
         {
-            
 
-            if(user.FirstName.Length < 2)
+            if (user.FirstName.Length < 2)
             {
                 Console.WriteLine("Hatayi bulduk");
             }
@@ -31,15 +29,13 @@ namespace Business.Concrete
             else
             {
                 _userDal.Add(user);
-                Console.WriteLine(user.FirstName+" added");
+                Console.WriteLine(user.FirstName + " added");
             }
-
         }
-
 
         public void Delete(User user)
         {
-            _userDal.Delete(user); 
+            _userDal.Delete(user);
         }
     }
 }

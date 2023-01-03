@@ -15,9 +15,9 @@ namespace ConsoleUI
             UserManager userManager = new UserManager(userDal);
             User user = new User();
             user.ID=1;
-            user.FirstName = "Kaan";
-            user.LastName = "özdopan";
-            user.Email = "kaan9942@gmail.com"; 
+            user.FirstName = "Bulut";
+            user.LastName = "Kalfazade";
+            user.Email = "bulutkalfazade@icloud.com"; 
             user.Password= "12345";
             userManager.Delete(user);
            

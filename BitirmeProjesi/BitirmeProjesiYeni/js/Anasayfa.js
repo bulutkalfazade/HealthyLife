@@ -31,3 +31,13 @@ window.onscroll = () =>{
   });
 
 }
+
+function Hesapla() {
+    var oran;
+    s1 = parseInt(document.getElementById('height').value);
+    s2 = parseInt(document.getElementById('neck').value);
+    s3 = parseInt(document.getElementById('bel').value);
+    s4 = parseInt(document.getElementById('kalca').value);
+    oran = (495 / (1.0324 - (0.19077 * (Math.Log10(s3 - s2))) + (0.15456 * (Math.Log10(s1))))) - 450;
+    document.getElementById('sonuc').value = oran;
+}

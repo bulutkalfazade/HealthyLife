@@ -7,11 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitirmeProjesi", "BitirmePr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "BackendHealthyLife\Business.csproj", "{BA562D82-DF46-409E-914F-90D5AF017CAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1A789F77-62E0-42E7-BCB5-93D99066F814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1A789F77-62E0-42E7-BCB5-93D99066F814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{2DE37998-8376-46EB-8ACB-61255011223F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{2DE37998-8376-46EB-8ACB-61255011223F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{6350A77C-C326-43C0-B63E-10161EDCC2B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{6350A77C-C326-43C0-B63E-10161EDCC2B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{3E78A271-F163-4EFE-BF51-D0F02B7431A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{6350A77C-C326-43C0-B63E-10161EDCC2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6350A77C-C326-43C0-B63E-10161EDCC2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6350A77C-C326-43C0-B63E-10161EDCC2B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E78A271-F163-4EFE-BF51-D0F02B7431A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E78A271-F163-4EFE-BF51-D0F02B7431A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E78A271-F163-4EFE-BF51-D0F02B7431A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E78A271-F163-4EFE-BF51-D0F02B7431A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
