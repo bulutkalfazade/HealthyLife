@@ -18,5 +18,11 @@ namespace BitirmeProjesi.Controllers
         {
             return View();
         }
+
+        public ActionResult Profil()
+        {
+            return View();
+        }
+
     }
 }

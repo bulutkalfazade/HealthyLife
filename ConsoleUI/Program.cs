@@ -14,14 +14,14 @@ namespace ConsoleUI
             IUserDal userDal = new EfUserDal();
             UserManager userManager = new UserManager(userDal);
             User user = new User();
-            user.ID=1;
-            user.FirstName = "Bulut";
-            user.LastName = "Kalfazade";
-            user.Email = "bulutkalfazade@icloud.com"; 
-            user.Password= "12345";
+            user.ID = 2;
+            user.FirstName = "Baran";
+            user.LastName = "Yıldız";
+            user.Email = "baranyıldız@icloud.com"; 
+            user.Password= "Baran123.";
             userManager.Delete(user);
            
-            Console.ReadLine();//Burda kaldım.
+            Console.ReadLine();
         }
     }
 }

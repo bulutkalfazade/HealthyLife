@@ -1,0 +1,63 @@
+[
+    {
+      "id":1,
+      "isim": "Izgara Hindi Göğüs",
+      "img": "image/tarifler1.webp",
+      "fiyat":"süt"
+    },
+    {
+        "id":1,
+      "isim": "Izgara Hindi Göğüs",
+      "img": "image/tarifler1.webp",
+      "fiyat":"süt"
+      },
+      {
+        "id":1,
+      "isim": "Izgara Hindi Göğüs",
+      "img": "image/tarifler1.webp",
+      "fiyat":"süt"
+      },
+      {
+        "id":1,
+        "isim": "Izgara Hindi Göğüs",
+        "img": "image/tarifler1.webp",
+        "fiyat":"süt"
+      },
+      {
+       "name": "Kağıtta levrek ",
+        "açıklama": "Kızartmadan hazırlanan birçok balık tarifi diyet listelerine çok uygun, biliyorsunuz. Üstelik Omega 3 almak için değerlendirebileceğimiz en lezzetli kaynaklar da yine onlar.",
+        "kalori": "1 porsiyon için 381/kcal",
+        "imgSource": "image/tarifler5.webp"
+      },
+      {
+        "name": "Patlıcan tabanlı pizza",
+        "açıklama": "O mayalı pizza hamurundan eser yok burada. Patlıcan tabanlı pizza tarifi bu adı üzerinde. “Kilo vermek istiyoruz diye pizza da mı yemeyelim?” diye sitem edenlere geliyor bu tarif.",
+        "kalori": "1 porsiyon için 251/kcal",
+        "imgSource": "image/tarifler6.webp"
+      },
+      {
+        "name": "Kinoalı sebze köftesi",
+        "açıklama": "Yüksek protein kaynağı, gluten içermeyen, kalsiyum deposu, pek çok rahatsızlığın şifacısı kinoa ile hazırladığımız, bol sebzeli sağlıklı mı sağlıklı bir köfte tarifi var sırada.",
+        "kalori": "1 porsiyon için 190/kcal",
+        "imgSource": "image/tarifler7.webp"
+      },
+      {
+        "name": "Portakallı kereviz",
+        "açıklama": "Tadını sevmeyen, hatta onu mutfağının kapısından içeri bile sokmayanları dahi ikna edebilecek, mis kokulu, bol portakallı bir yemek o.",
+        "kalori": "1 porsiyon için 260/kcal",
+        "imgSource": "image/tarifler8.webp"
+      },
+      {
+        "name": "Yer elması kızartması ",
+        "açıklama": "Bu tarifimiz televizyonun karşısında, film izlerken ya da kitap okurken bir şeyler atıştırmak isteyenlere geliyor. Kızartma dedik ama gözünüz korkmasın oldukça sağlıklı bir kızartma bu. Üstelik dilerseniz fırınlayabilirsiniz de.",
+        "kalori": "1 porsiyon için 320/kcal",
+        "imgSource": "image/tarifler9.webp"
+      },
+      {
+        "name": "Mücver kek",
+        "açıklama": "Mücver deyince akan suları durduracak insanlar var, biliyoruz. Şimdi bu tarifimiz sizin için geliyor içinde lezzetli peynirler olan bu mücver kızartmadan çok ama çok uzak. Yoğurdu hazır edin yanında.",
+        "kalori": "1 porsiyon için 220/kcal",
+        "imgSource": "image/tarifler10.webp"
+      }
+  ]
+  

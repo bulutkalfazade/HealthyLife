@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="css/kayıtol.css">
+</head>
+<body>
+    <div class="box">
+		<form autocomplete="off" id="form1">
+			<h2>Healthy Life</h2>
+			<div class="inputBox">
+				<input type="text" required="required">
+				<span>Adın</span>
+				<i></i>
+			</div>
+            <div class="inputBox">
+				<input type="text" required="required">
+				<span>Soyadın</span>
+				<i></i>
+			</div>
+			<div class="inputBox">
+				<input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required="required">
+				<span>Şifre</span>
+				<i></i>
+			</div>
+            <div class="inputBox">
+				<input type="email" required="required">
+				<span>E-mail</span>
+				<i></i>
+			</div>
+			<div class="links">
+				<a href="Anasayfa.html">Anasayfaya dön</a>
+				<a href="giris.html">Giriş yap</a>
+			</div>
+			<div class="registerButton">
+                
+				<button type="submit" value="Kayıt Ol" onclick="location.href='profil.html';" >
+					<span>Kayıt ol</span>
+			</div>
+		</form>
+	</div>
+
+	<script>
+		function control (formId){
+			let invalids = document.getElementById(formId).querySelectorAll(';invalid').length;
+			button = document.getElementById(formId).querySelector('button[type="submit"]');
+
+			if (invalids == 0){
+				button.removeAttribute('disabled');
+			}
+			else{
+				button.setAttribute('disabled', 'disabled');
+			}
+
+		}
+			control('form1');
+	</script>
+
+</body>
+</html>

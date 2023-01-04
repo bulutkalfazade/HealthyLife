@@ -20,7 +20,6 @@ namespace DataAccess.Concrete.EntitityFramework
                 addedEntity.State = EntityState.Added;
                 context.SaveChanges();
             }
-
         }
         public void Delete(User user)
         {
@@ -31,8 +30,6 @@ namespace DataAccess.Concrete.EntitityFramework
                 context.SaveChanges();
             }
         }
-
-
     }
 }
 

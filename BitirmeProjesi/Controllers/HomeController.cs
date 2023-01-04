@@ -25,6 +25,6 @@ namespace BitirmeProjesi.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
-        }
+        }  
     }
 }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Healthy Life</title>
+        <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="css/virtual-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/profile.css">
+  </head>
+  <header>
+
+    <a href="#" class="logo"></a>
+
+    <nav class="navbar">
+        <a  href="Anasayfa.html">AnaSayfa</a>
+        <a  href="Beslenme.html">Beslenme</a>
+        <a  href="#about">Spor</a>
+        <a  href="YemekServisi.html">Yemek Servisi</a>
+        <a  href="kayıtol.html">Kayıt OL</a>
+        <a  class="active" href="profil.html">Profil</a>
+      
+       
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="giris.html" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+    <div class="card-container">
+       
+        <img class="round" src="https://randomuser.me/api/portraits/women/79.jpg" alt="user" />
+        <h1>ADI</h1>
+        <h2>SOYİSMİ</h2>
+        <h3>KİLOSU</h3>
+        <h4>BOYU</h4>
+        <h5>YAŞI</h5>
+        
+        <div class="skills">
+            <h6>Günlük Kalori İhtiyacınız</h6>
+            <h7>2000</h7></br>
+            <h8>Günlük almanız gereken makrolar</h8>
+            <ul>
+                <li>Protein: <span>155</span></li>
+                <li>Karbonhidrat: <span>155</span></li>
+                <li>Yağ: <span>155</span></li>
+              
+            </ul>
+        </div>
+
+
+
+        <div class="skills">
+            <h6>Günlük Kalori İhtiyacınız</h6>
+            <h7>2000</h7></br>
+            <h8>Günlük almanız gereken makrolar</h8>
+       <label>Lütfen besin seçiniz</label>
+       <select id="multipleSelect" multiple name="native-select" placeholder="Native Select" data-search="true" data-silent-initial-value-set="true">
+        <option value="1" >Bezelye Çorbası	100g	75 kcal</option>
+        <option value="2">Fırında Tavuk	100g	164 kcal</option>
+        <option value="3" >Humus	100g	177 kcal</option>
+        <option value="4" >Kebap	100g	215 kcal</option>
+        <option value="5">Rulo Köfte	100g	254 kcal</option>
+        <option value="6" >Ayran	38 kcal/100 gr</option>
+        <option value="7" >Bezelye Çorbası	100g	75 kcal</option>
+        <option value="8">Zeytinyağlı Kereviz	100g	66 kcal</option>
+        <option value="9" >Kızarmış Pirinç	100g	186 kcal</option>
+        <option value="10" >Peynirli Pide	100g	275 kcal</option>
+        <option value="11">Avokado	167 kcal/100 gr</option>
+        <option value="12" >Havuç	42 kcal/100 gr</option>
+      </select>
+            <ul>
+                
+                <li>Protein: <span>155</span></li>
+                <li>Karbonhidrat: <span>155</span></li>
+                <li>Yağ: <span>155</span></li>
+              
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/virtual-select.min.js"></script>
+    <script type="text/javascript">
+        VirtualSelect.init({ 
+        ele: '#multipleSelect' 
+         });
+    </script>
+    <script src="js/profile.js"></script>
+
+</html>
+ 

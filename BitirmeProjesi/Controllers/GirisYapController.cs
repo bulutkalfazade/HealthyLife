@@ -21,10 +21,10 @@ namespace BitirmeProjesi.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult Login(Admin ad)
+        public ActionResult Login(Admin admin )
         {
-            var bilgiler = c.Admins.FirstOrDefault(x=>x.User == ad.User 
-            && x.Password == ad.Password);
+            var bilgiler = c.Admins.FirstOrDefault(x=>x.User == admin.User 
+            && x.Password == admin.Password);
             
             if (bilgiler != null)
             {
