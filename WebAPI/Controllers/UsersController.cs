@@ -16,10 +16,12 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("add")]
+        
         public IActionResult Add(User user)
         {
             var result = _userService.Add(user);
-            return Ok(result);
-        } 
+            return Ok();
+
+        }
     }
 }

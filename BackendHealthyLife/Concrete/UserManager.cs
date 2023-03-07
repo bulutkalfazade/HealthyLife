@@ -18,19 +18,10 @@ namespace Business.Concrete
             _userDal = userDal;
         }
 
-        public void Add(User user)
+        public  IResult Add (User user)
         {
-
-            if (user.FirstName.Length < 2)
-            {
-                Console.WriteLine("Hatayi bulduk");
-            }
-
-            else
-            {
-                _userDal.Add(user);
-                Console.WriteLine(user.FirstName + " added");
-            }
+            _userDal.Add(user);
+            return new SuccessResult();
         }
 
         public void Delete(User user)

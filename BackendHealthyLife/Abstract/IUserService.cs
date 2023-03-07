@@ -10,7 +10,7 @@ namespace Business.Abstract
 {
     public interface IUserService
     {
-        public void Add(User user);
-        public void Delete(User user);
+        public IResult Add(User user);
+       // public void Delete(User user);
     }
 }
