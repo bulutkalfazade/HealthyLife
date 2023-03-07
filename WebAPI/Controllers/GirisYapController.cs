@@ -12,6 +12,6 @@ namespace WebAPI.Controllers
         public IActionResult Login()
         {
             return View();
-        }
+        } 
     }
 }
