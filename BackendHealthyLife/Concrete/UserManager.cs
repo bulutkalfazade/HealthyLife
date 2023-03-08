@@ -18,15 +18,21 @@ namespace Business.Concrete
             _userDal = userDal;
         }
 
-        public  IResult Add (User user)
+        public  void Add (User user)
         {
             _userDal.Add(user);
-            return new SuccessResult();
+            
         }
 
         public void Delete(User user)
         {
             _userDal.Delete(user);
+            
+        }
+
+        public List<User> GetAll()
+        {
+             return _userDal.GetAll();
         }
     }
 }

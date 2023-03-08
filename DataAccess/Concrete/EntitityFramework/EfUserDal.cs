@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Entities.Concrete;
+using Entities.Abstract;
+using System.Linq.Expressions;
 
 namespace DataAccess.Concrete.EntitityFramework
 {
     public class EfUserDal : IUserDal
     {
+       
+
         public void Add(User user)
         {
             using (HealthyLifeContext context = new HealthyLifeContext())
@@ -30,6 +34,15 @@ namespace DataAccess.Concrete.EntitityFramework
                 context.SaveChanges();
             }
         }
+
+        public List<User> GetAll()
+        {
+            using (HealthyLifeContext context = new HealthyLifeContext())
+            {
+                return context.Set<User>().ToList();
+
+            }
+        }
+
     }
 }
-

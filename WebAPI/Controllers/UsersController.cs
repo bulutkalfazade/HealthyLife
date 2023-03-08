@@ -2,6 +2,7 @@
 using Entities.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Data.Entity.Core.Metadata.Edm;
 
 namespace WebAPI.Controllers
 {
@@ -15,13 +16,26 @@ namespace WebAPI.Controllers
                 _userService= userService;
         }
 
-        [HttpPost("add")]
-        
-        public IActionResult Add(User user)
+        [HttpGet("getall")]
+        public IActionResult GetAll()
         {
-            var result = _userService.Add(user);
-            return Ok();
+            var result = _userService.GetAll();
+            return Ok(result);
 
         }
+        [HttpPost("add")]
+        public IActionResult Add(User user)
+        {
+            _userService.Add(user);
+            return Ok();
+        }
+
+        [HttpPost("remove")]
+        public IActionResult Delete(User user)
+        {
+            _userService.Delete(user);
+            return Ok();
+        }
+
     }
 }
