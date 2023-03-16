@@ -30,7 +30,7 @@ namespace WebAPI.Controllers
             return Ok();
         }
 
-        [HttpPost("remove")]
+        [HttpPost("delete")]
         public IActionResult Delete(User user)
         {
             _userService.Delete(user);
